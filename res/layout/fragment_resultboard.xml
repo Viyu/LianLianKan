@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingTop="50dip" >
+
+    <TextView
+        android:id="@+id/resultboard_resulttext"
+        style="@style/SerifFontStyle.ResultTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/resultboard_message"
+        style="@style/SerifFontStyle.TimeCostTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dip" />
+
+    <Button
+        android:id="@+id/resultboard_replay"
+        style="@style/SerifFontStyle.ResultButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_replay" />
+    
+    <Button
+        android:id="@+id/resultboard_next"
+        style="@style/SerifFontStyle.ResultButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_next" />
+</LinearLayout>

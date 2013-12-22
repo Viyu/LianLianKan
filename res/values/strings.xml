@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">安卓连连看</string>
+    
+    <string name="text_desc_imageview">imageview</string>
+    
+    <string name="text_xipai">洗牌</string>
+    <string name="text_tishi">提示</string>
+    
+    <string name="text_record">记录：\u0020%1$s秒</string>
+    <string name="text_notplayed">未解锁</string>
+    <string name="text_notfinish">未通关</string>
+    
+    <string name="text_replay">再玩一把</string>
+    <string name="text_next">下一关</string>
+    
+    <string name="text_timecosted">所用的时间为\u0020%1$s秒</string>
+    
+    <string name="text_startplay">开始</string>
+    <string name="text_quitapp">退出</string>
+    <string name="text_quitapp_confirm">确定要退出吗？</string>
+    
+    <string name="text_dialog_ok">确定</string>
+    <string name="text_dialog_cancel">取消</string>
+    
+    <string name="text_winner">胜利！</string>
+    <string name="text_loser">失败！</string>
+    
+    <string name="text_backsound">背景音乐</string>
+    <string name="text_gamesound">游戏音效</string>
+</resources>

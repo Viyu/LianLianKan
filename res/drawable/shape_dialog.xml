@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <solid android:color="@color/background_black_half" />
+
+    <corners android:radius="@dimen/radius_settingitem" />
+
+    <stroke
+        android:width="1dip"
+        android:color="@color/metal_silver_half" />
+
+    <padding
+        android:bottom="6.0dip"
+        android:left="6.0dip"
+        android:right="6.0dip"
+        android:top="6.0dip" />
+
+</shape>

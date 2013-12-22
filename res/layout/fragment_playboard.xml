@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="10dip" >
+
+        <TextView
+            android:id="@+id/playboard_timeleftview"
+            style="@style/SerifFontStyle.TimeSecondStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ProgressBar
+            android:id="@+id/playboard_timeleftprogress"
+            style="@style/ProgressBarStyle"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="0dip"
+            android:paddingLeft="5dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="10dip" >
+
+        <Button
+            android:id="@+id/playboard_refreshbutton"
+            style="@style/SerifFontStyle.ToolsButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dip"
+            android:text="@string/text_xipai" />
+
+        <TextView
+            android:id="@+id/playboard_refreshnum"
+            style="@style/SerifFontStyle.ToolsNumStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dip" />
+
+        <Button
+            android:id="@+id/playboard_hintbutton"
+            style="@style/SerifFontStyle.ToolsButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dip"
+            android:text="@string/text_tishi" />
+
+        <TextView
+            android:id="@+id/playboard_hintnum"
+            style="@style/SerifFontStyle.ToolsNumStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <com.viyu.alianlk.androidholoicons.views.LianlkView
+        android:id="@+id/playboard_lianlkview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

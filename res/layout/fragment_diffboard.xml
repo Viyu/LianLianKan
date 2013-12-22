@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3" >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:weightSum="3" >
+
+        <LinearLayout
+            style="@style/SerifFontStyle.DiffItemStyle"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/diff_button_11"
+                style="@style/SerifFontStyle.DiffItemButtonStyle" />
+
+            <TextView
+                android:id="@+id/diff_text_11"
+                style="@style/SerifFontStyle.DiffItemTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/SerifFontStyle.DiffItemStyle"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/diff_button_12"
+                style="@style/SerifFontStyle.DiffItemButtonStyle" />
+
+            <TextView
+                android:id="@+id/diff_text_12"
+                style="@style/SerifFontStyle.DiffItemTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/SerifFontStyle.DiffItemStyle"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/diff_button_13"
+                style="@style/SerifFontStyle.DiffItemButtonStyle" />
+
+            <TextView
+                android:id="@+id/diff_text_13"
+                style="@style/SerifFontStyle.DiffItemTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:weightSum="3" >
+
+        <LinearLayout
+            style="@style/SerifFontStyle.DiffItemStyle"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/diff_button_21"
+                style="@style/SerifFontStyle.DiffItemButtonStyle" />
+
+            <TextView
+                android:id="@+id/diff_text_21"
+                style="@style/SerifFontStyle.DiffItemTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/SerifFontStyle.DiffItemStyle"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/diff_button_22"
+                style="@style/SerifFontStyle.DiffItemButtonStyle" />
+
+            <TextView
+                android:id="@+id/diff_text_22"
+                style="@style/SerifFontStyle.DiffItemTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/SerifFontStyle.DiffItemStyle"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/diff_button_23"
+                style="@style/SerifFontStyle.DiffItemButtonStyle" />
+
+            <TextView
+                android:id="@+id/diff_text_23"
+                style="@style/SerifFontStyle.DiffItemTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:weightSum="3" >
+
+        <LinearLayout
+            style="@style/SerifFontStyle.DiffItemStyle"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/diff_button_31"
+                style="@style/SerifFontStyle.DiffItemButtonStyle" />
+
+            <TextView
+                android:id="@+id/diff_text_31"
+                style="@style/SerifFontStyle.DiffItemTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/SerifFontStyle.DiffItemStyle"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/diff_button_32"
+                style="@style/SerifFontStyle.DiffItemButtonStyle" />
+
+            <TextView
+                android:id="@+id/diff_text_32"
+                style="@style/SerifFontStyle.DiffItemTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/SerifFontStyle.DiffItemStyle"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/diff_button_33"
+                style="@style/SerifFontStyle.DiffItemButtonStyle" />
+
+            <TextView
+                android:id="@+id/diff_text_33"
+                style="@style/SerifFontStyle.DiffItemTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </TableRow>
+
+</TableLayout>
